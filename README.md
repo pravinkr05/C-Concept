@@ -11,6 +11,8 @@
 * Comments - a piece of line in the program which compiler does not executes and it is used to explain the line of code.
 * variable - a container or memory space where value is stored. local variable (written inside a curly braces) takes high precedence than global variable (written outside of function and access from anywhere) if same variable exit in both case.
 ex. 0pkb - not valid variable ❎, _pkb - valid ☑️, pk8 - ☑️
+* reference variable - same variable with different name. eg int a=2; int &b = a; a nad b represent same space.
+* Typecasting - one variable datatype converted into another data type. int to float by int a = 5; float b = (float) a;
 
 * Input/Output - using cin takes data from user (keyboard) and using cout display data to user (screen).
 * Control Structure - gives flow and logic in the execution of a program.
@@ -22,7 +24,10 @@ ex. 0pkb - not valid variable ❎, _pkb - valid ☑️, pk8 - ☑️
 ## Array, Pointer, String
 * Array (subscript variable) - it is a variable stores muliple value with same data type at contiguous memory locations. It provides access value fastly at any random position. any dimension of array can be created.
 * Pointer - a variable that stores address of another variable (pointing to another variable). int *a = &b;
-* String -
+  pointer array - int* arr = marks; int marks[3]={1,2,3}. *arr=marks[0] , *(arr+1) = marks[1]. * is known as dereference operator.
+  pointer to pointer (one pointer store the address of another pointer) - int a=2; int *b = &a; int **c = &b;
+  
+* String - one dimensional array of characters. string s = "ABC"; use header file - <string>
 
 ## structure, union
 
